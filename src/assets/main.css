@@ -1,0 +1,18 @@
+:root {
+  --color-bg: #0f1420;
+  --color-surface: #181f2e;
+  --color-surface-hover: #1f2937;
+  --color-border: #2a3344;
+  --color-text: #e5e9f0;
+  --color-text-muted: #8b94a8;
+  --color-accent: #6366f1;
+  --color-positive: #16c784;
+  --color-negative: #ea3943;
+  --radius: 10px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', system-ui, sans-serif;
+}
