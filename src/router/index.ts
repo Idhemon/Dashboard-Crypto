@@ -7,6 +7,12 @@ const router = createRouter({
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/coin/:id',
+    name: 'CoinDetails',
+    component: () => import('@/views/CoinDetail.vue'),
+    props: true
   }],
 })
 
